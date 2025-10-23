@@ -1,0 +1,39 @@
+
+[boot process]
+  
+  when turn on comp, it executes firmware code
+  that is stored in motherboard ROM
+
+    Motherboard ROM
+        
+        is a non-volitile memory chip embedded on the motherboard
+        that stores the computer's firmware, most commonly
+        BIOS or UEFI. 
+        
+        It is "read-only" meaning its contents don't get erased
+        when the computer powers off.
+
+        when you turn on the comp, the CPU immediately 
+        executes the instructions stored in ROM.
+
+        these instructions handle power-on self tests,
+        detect hardware, and bootstrap the OS by 
+        loading the bootloader from disk or another
+        device
+
+        modern systems often use flashable ROM so the 
+        firmware can be updated, but the concept remains
+        the same: it's the machines earliest code. 
+
+    BIOS
+
+        Basic Input Output system
+
+        unified extensible firmware interface
+
+        bios is supported on any x86 machine since the 
+        1980s 
+
+        UEFI has more features and is harder to setup
+
+
